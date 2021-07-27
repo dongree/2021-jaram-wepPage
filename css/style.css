@@ -1,0 +1,124 @@
+#banner{
+    background-image: url('../img/banner_youtube.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 0em -20em;
+    background-repeat: no-repeat;
+}
+body{
+    background-color: #FFFAFA;
+    margin-bottom: 0em;
+}
+.video 
+{
+    width: 100%;
+    max-width: 90em;
+    margin: 1em auto;
+    border-radius: 4em;
+    background-color: white;
+    padding: 2em;
+    box-sizing: border-box;
+    box-shadow: 0.5em 0.5em 0.5em 0.5em #999;
+}
+
+.video-container 
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 56.25%;
+}
+
+iframe 
+{
+    z-index: 1;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+text1
+{   
+    font-family: 'Noto Sans KR';
+    font-weight: bolder;
+    text-align: center;
+    font-size: 5.5em;
+    color: white;
+}
+
+text2
+{
+    font-family: 'Noto Sans KR';
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.8em;
+    color: white;
+}
+
+
+text3
+{
+    font-family: 'Noto Sans KR';
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 3px 3px 0px #dad7d7;
+
+}
+text4
+{
+    font-family: 'Noto Sans KR';
+    font-weight: bold;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 0px 1px #ffffff, 4px 4px 0px #dad7d7;
+
+}
+text5
+{
+    font-family: 'Noto Sans KR';
+    font-weight: lighter;
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 0px #dad7d7;
+
+}
+
+text6
+{
+    font-family: 'Noto Sans KR';
+    font-weight: lighter;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
+
+text7
+{
+    font-family: 'Noto Sans KR';
+    font-weight: bold;
+    text-align: left;
+    font-size: 1.8em;
+    color: gray;
+}
+text7_1
+{
+    font-family: 'Noto Sans KR';
+    font-weight: bold;
+    text-align: right;
+    font-size: 1.8em;
+    color: gray;
+}
+
+
+text8
+{
+    font-family: 'Noto Sans KR';
+    font-weight: lighter;
+    text-align: center;
+    font-size: 2.8em;
+    text-shadow: 1px 1px 0px #dad7d7;
+
+}
