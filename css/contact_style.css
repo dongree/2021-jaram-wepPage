@@ -7,3 +7,12 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.contact_icon {
+  transition: all 300ms ease-in-out;
+  margin-top: 3rem;
+}
+
+.contact_icon:hover {
+  transform: scale(1.1);
+}
