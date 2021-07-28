@@ -1,0 +1,17 @@
+#background {
+  background-image: url("../img/cont.jpg");
+  padding-bottom: 6em;
+  padding-top: 4em;
+  margin-bottom: 5em;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+text1 {
+  font-family: "Noto Sans KR";
+  font-weight: bolder;
+  text-align: center;
+  font-size: 5.5em;
+  color: white;
+}
