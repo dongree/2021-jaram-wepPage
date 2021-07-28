@@ -1,0 +1,21 @@
+/* study */
+.study_background {
+  background-image: url("../img/study_background.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.study_background .content {
+  color: white;
+  z-index: 2;
+  text-align: center;
+}
+
+.img-cover {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}

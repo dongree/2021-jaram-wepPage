@@ -1,0 +1,33 @@
+/* activity */
+.acticity_background {
+  height: 100vh;
+  background-image: url("../img/bonfire_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.act_icon {
+  transition: all 300ms ease-in-out;
+}
+
+.act_icon:hover {
+  transform: scale(1.2);
+}
+
+.act_img-cover {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+@media (max-width: 992px) {
+  .acticity_background {
+    height: 1300px;
+  }
+
+  .act_img-cover {
+    height: 1300px;
+  }
+}
