@@ -14,10 +14,20 @@
   transform: scale(1.2);
 }
 
-.img-cover {
+.act_img-cover {
   position: absolute;
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 1;
+}
+
+@media (max-width: 992px) {
+  .acticity_background {
+    height: 1100px;
+  }
+
+  .act_img-cover {
+    height: 1100px;
+  }
 }
