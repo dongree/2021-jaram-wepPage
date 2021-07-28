@@ -5,13 +5,197 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jaram</title>
-    <link rel="icon" href="img\jaram_logo.jpg">
+    <link rel="icon" href="img/jaram_logo.jpg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <link href="css/workshop_style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/activity_style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/study_style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/main_style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/contact_style.css" rel="stylesheet" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <style>
+        body{
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+    </style>
+    <script type="text/javascript">
+        function go_contact(){
+            $('html, body').animate({ scrollTop:$("#go_contact").offset().top}, 200);
+            }
+    </script>
 </head>
 <body>
-    
-    
+    <!-- main page -->
+    <header class="masthead">
+        <div class="container px-4 px-lg-5 h-100">
+            <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                <div class="col-lg-8 align-self-end">
+                    <text1>Jaram</text1>
+                    <hr class="divider" />
+                </div>
+                <div class="col-lg-8 align-self-baseline">
+                    <p class="text-white-75 mb-5">안녕하세요. 한양대학교 ERICA 캠퍼스 소프트웨어융합대학 전공학회 자람입니다.</p>
+                    <button type="button" class="btn btn-outline-secondary" onclick=go_contact()><text6 style="color: white;">Contact Us</text6></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- study -->
+    <div class="study_background">
+        <div class="img-cover">
+            <div class="content"  style="margin-top: 20px;">
+                <text1>Study</text1>
+                <br>
+                <div style="margin-top: 120px; margin-left: 50px; margin-right: 50px;">
+                    <text5>프로그래밍은 내용도 많고 주제도 매우 다양합니다.</text5><br>
+                    <text5>혼자서는 힘든 프로그래밍, 학회 내 재학생 스터디를 통해 함께해요.</text5><br>
+                    <text5>자람에서는 매년 20~30개의 스터디와 10~15가지의 주제로</text5><br>
+                    <text5>재학생 스터디가 진행됩니다.</text5>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+
+    <!-- workshop -->
+
+    <!-- banner-->
+    <div class="container-fluid" id = "banner" style="max-width: 100%; height: auto;">
+        <div class="row">
+            <div class="col-xl-12" style = "text-align: center; padding-bottom: 2.5rem; padding-top: 2.5rem;">
+                <text1>
+                    Workshop & Seminar
+                </text1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xl-12" style = "text-align: center; padding-bottom: 2.5rem;">
+                <text2>자람은 <U>기초부터 전문 능력까지</U> 기를 수 있는 학회입니다.</text2>
+            </div>
+        </div>
+    </div>
+    <!-- text and video-->
+    <div class="container" id = "test">
+        <div class="row">
+            
+            <div class="col-lg-6" style="padding: 2rem";>
+                <br><br>
+                <div class="video">
+                    <div class="video-container">
+                        <iframe width="1520" height="581" src="https://www.youtube.com/embed/R5Pli1efEuY?&autoplay=1&mute=1&start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6" style="padding: 2em;text-align: center;">
+                <text7>"<br></text7>
+                <text4>대</text4>
+                <text3><b>학교에 진학할때부터 관심분야를 정확히 정하고 오거나 잘하는 사람은 많지 않습니다.</b><br><br></text3>
+                <text7_1>"<br></text7_1> 
+                <text5>자람은 <b>세미나</b>를 통해 다양한 분야를 접할 수 있도록 하여 관심분야를 정하는데 도움을 주고,</text5>
+                <text5>관심분야가 정해진 친구들은 <b>스터디</b>를 꾸려 그 분야를 더 깊게 공부할 수 있도록 체계가 이루어져 있습니다.</text5>
+                <text5>또한 <b>매 학기 방학 워크샵</b>을 개최해 한가지 주제에 대해 함께, 그리고 깊이 공부하며</text5>
+                <text5>프로그래밍 능력과 전공분야에 대한 소양을 기릅니다.<br></text5>   
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 text-center" style="padding: 2rem";>
+                <button type="button" class="btn btn-outline-secondary" onclick='location.href = "https://www.youtube.com/channel/UCkogqLvBHQNxS5c-VcnZnHw"'><text8 style="margin-left: 0.4rem; margin-right: 0.4rem; font-size: 2rem;">See more videos</text8></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- activities -->
+    <div class="acticity_background">
+        <div class="act_img-cover">
+            <div class="container text-center text-white" style="margin-top: 20px;">
+                <text1>Activities</text1>
+                <div class = "row" style="margin-top: 80px;">
+                    <div class = "col-lg-4">
+                        <div class="text-warning"  style="font-size: 100px;">
+                            <i class="fas fa-campground act_icon"></i>
+                        </div>
+                        <h5 class="mt-3 fw-bold">MT</h5>
+                        <p class="px-5">Jaram은 신입생과 재학생 사이의 어색함을 덜고 친목을 다지기 위한 MT를 진행합니다. 즐거운 레크레이션 활동을 통해 서로에 대해 알아갈 수 있는 좋은 기회입니다. MT는 연중 2회 진행됩니다.</p>
+                    </div>
+                    <div class = "col-lg-4">
+                        <div class="text-info"  style="font-size: 100px;">
+                            <i class="fas fa-running act_icon"></i>
+                        </div>
+                        <h5 class="mt-3 fw-bold">체육대회</h5>
+                        <p class="px-5">Jaram은 학외원들의 건강을 증진시키고 친목을 다질 수 있는 체육대회를 진행합니다. 체육대회를 통해 같이 땀을 흘리면서 학회원들의 협동심을 키울 수 있는 좋은 시간입니다. 많은 상품도 준비되어있습니다.</p>
+                    </div>
+                    <div class = "col-lg-4">
+                        <div style="font-size: 100px;">
+                            <i class="fas fa-desktop act_icon"></i>
+                        </div>
+                        <h5 class="mt-3 fw-bold">E-sports 대회</h5>
+                        <p class="px-5">Jaram은 여러가지 게임들을 함께 즐길 수 있는 E-sports 대회를 진행합니다. lol, 오버워치, 오목 등 다양한 게임들을 학회원들끼리 함께 진행하면서 즐거운 시간을 보낼 수 있습니다. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="go_contact"></div>
+    <!-- contact -->
+    <div class="container-fluid" id="background" style="max-width: 100%; height: auto;">
+        <div class="row">
+            <div class="col-xl-12" style = "text-align: center; padding-bottom:5rem; padding-top: 2.5rem;">
+                <text1>
+                    Contact Us
+                </text1>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="padding-bottom: 50px;">
+        <div class="row" style="text-align: center">
+            <div class="col-md-4 col-xs-12">
+                <div class="card" style="height: 25rem">
+                <div class="contact_icon" style="color:red;">
+                    <i class="fab fa-google fa-10x"></i>
+                </div>
+                <br>
+                <h3 class="fw-bold">이메일</h3>
+                <p>hyu.cse.jaram@gmail.com</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <div class="card" style=" height: 25rem">
+                <div class="contact_icon" style="color:purple;">
+                    <i class="fab fa-github fa-10x"></i>
+                </div>
+                <br>
+                <h3 class="fw-bold">깃허브</h3>
+                <br>
+                <a href="https://github.com/Jaram" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Follow @Jaram</a>
+                <a href="https://github.com/Jaram2019" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" style="margin-top:5px;">Follow @Jaram2019</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <div class="card" style="height: 25rem">
+                <div class="contact_icon" style="color: #6495ed;">
+                    <i class="fas fa-map-marker-alt fa-10x"></i>
+                </div>
+                <br>
+                <h3 class="fw-bold">학회방</h3>
+                <p>한양대학교 ERICA캠퍼스 제3공학관 지하107호</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
